@@ -1,0 +1,126 @@
+<mxfile host="Electron" modified="2023-12-01T04:05:29.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="wwqVkjEtZM8jz_fRYEQ5" version="21.7.5" type="device">
+  <diagram name="第 1 页" id="xw9rmRMVfsjoRQawxL_X">
+    <mxGraphModel dx="1418" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RehT4rrizof0umP3O2hm-1" value="Panel" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-2" value="View" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-4" value="RankEvent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="140" y="480" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RehT4rrizof0umP3O2hm-5" target="RehT4rrizof0umP3O2hm-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-10" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RehT4rrizof0umP3O2hm-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.2333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-5" value="RankingService" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="140" y="310" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-6" value="RankDataManager" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-7" value="RankMessageRequest" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="140" y="380" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-8" value="TSGameService" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="620" y="310" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="RehT4rrizof0umP3O2hm-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-12" value="监听服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RehT4rrizof0umP3O2hm-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="RehT4rrizof0umP3O2hm-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="410" as="sourcePoint" />
+            <mxPoint x="140" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RehT4rrizof0umP3O2hm-14" value="请求服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RehT4rrizof0umP3O2hm-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBV0RJ19OaALPwJxTTmw-1" value="TSEventDefine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="680" y="500" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EBV0RJ19OaALPwJxTTmw-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="EBV0RJ19OaALPwJxTTmw-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="529.5" as="sourcePoint" />
+            <mxPoint x="680" y="529.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBV0RJ19OaALPwJxTTmw-3" value="注册UI界面拖动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="EBV0RJ19OaALPwJxTTmw-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-2" value="TSLocalization.Instance.GetLabel()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="680" y="640" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="HImNNbLl8Bjn9Nicf1k5-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="669.5" as="sourcePoint" />
+            <mxPoint x="680" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-4" value="文本字段获取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HImNNbLl8Bjn9Nicf1k5-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-7" value="TSConfigManager.Instance.GetPropConfigById()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="680" y="720" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="HImNNbLl8Bjn9Nicf1k5-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="749.5" as="sourcePoint" />
+            <mxPoint x="680" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-9" value="根据ID取表数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HImNNbLl8Bjn9Nicf1k5-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-10" value="天神前端流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;strokeColor=default;glass=0;sketch=1;curveFitting=1;jiggle=2;fontSize=19;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="30" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HImNNbLl8Bjn9Nicf1k5-12" value="newGodList" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJV6rtV_YWxwyMlmSa9-5" value="ExamplesCfg" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1mJV6rtV_YWxwyMlmSa9-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1mJV6rtV_YWxwyMlmSa9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="600" as="sourcePoint" />
+            <mxPoint x="140" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1mJV6rtV_YWxwyMlmSa9-7" value="注册泛型方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1mJV6rtV_YWxwyMlmSa9-6">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
